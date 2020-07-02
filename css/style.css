@@ -54,8 +54,9 @@ p {
 @media (max-width: 320px){
 
     .logo-titulo {
+        width: 80%;
         height: 100px;
-        background-image: url(/img/logo320.png);
+        background-image: url(/img/logo1080.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
