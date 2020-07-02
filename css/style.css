@@ -1,0 +1,724 @@
+body{
+
+    background-color:#1D1C1A;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+    font-size: medium;
+    padding: 0 5px 0 5px;
+}
+
+/* TITULO */
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+}
+.logo-titulo {
+    width: 50%;
+    height: 200px;
+    padding: 0px 0 10px 0;
+    background-image: url(/img/logo1080.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 750px){
+
+    .logo-titulo {
+        height: 150px;
+        background-image: url(/img/logo750.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .logo-titulo {
+        height: 150px;
+        background-image: url(/img/logo640.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .logo-titulo {
+        height: 100px;
+        background-image: url(/img/logo320.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* /////////// FIN TITULO //////////// */
+
+
+.contenedor-seccion {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 15px;
+    
+}
+
+/* ENSALADAS */
+
+.ensaladas {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/ensaladas1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .ensaladas {
+        height: 250px;
+        background-image: url(/img/ensaladas750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .ensaladas {
+        height: 200px;
+        background-image: url(/img/ensaladas640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .ensaladas {
+        height: 150px;
+        background-image: url(/img/ensaladas320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+/* CONTENIDO ENSALADAS */
+
+.contenedor-ensaladas {
+
+    display: none;
+}
+
+.contenido-ensaladas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+    
+}
+
+/* /////////// FIN ENSALADAS //////////// */
+
+/* ENTRANTES */
+
+.entrantes {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/entrantes1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .entrantes {
+        height: 250px;
+        background-image: url(/img/entrantes750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .entrantes {
+        height: 200px;
+        background-image: url(/img/entrantes640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .entrantes {
+        height: 150px;
+        background-image: url(/img/entrantes320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO ENTRANTES */
+
+.contenedor-entrantes {
+
+    display: none;
+}
+
+.contenido-entrantes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+/* /////////// FIN ENTRANTES //////////// */
+
+/* TOSTAS */
+
+.tostas {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/tostas1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .tostas {
+        height: 250px;
+        background-image: url(/img/tostas750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .tostas {
+        height: 200px;
+        background-image: url(/img/tostas640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .tostas {
+        height: 150px;
+        background-image: url(/img/tostas320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO TOSTAS */
+
+.contenedor-tostas {
+
+    display: none;
+}
+
+.contenido-tostas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN TOSTAS //////////// */
+
+/* MINI HAMBURGESAS */
+.mini-hamburgesas {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/mini-hamburgesas1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .mini-hamburgesas {
+        height: 250px;
+        background-image: url(/img/mini-hamburgesas750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .mini-hamburgesas {
+        height: 200px;
+        background-image: url(/img/mini-hamburgesas640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .mini-hamburgesas {
+        height: 150px;
+        background-image: url(/img/mini-hamburgesas320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO MINI HAMBURGESAS */
+
+.contenedor-mini-hamburgesas {
+
+    display: none;
+}
+
+.contenido-mini-hamburgesas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+/* /////////// FIN MINI HAMBURGESAS //////////// */
+
+/* CARNES */
+
+.carnes {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/carnes1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .carnes {
+        height: 250px;
+        background-image: url(/img/carnes750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .carnes {
+        height: 200px;
+        background-image: url(/img/carnes640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .carnes {
+        height: 150px;
+        background-image: url(/img/carnes320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO CARNES */
+
+.contenedor-carnes {
+
+    display: none;
+}
+
+.contenido-carnes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN CARNES//////////// */
+
+/* BOCADILLOS CALIENTES */
+
+.bocadillos-calientes {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/bocadillos-calientes1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .bocadillos-calientes {
+        height: 250px;
+        background-image: url(/img/bocadillos-calientes750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .bocadillos-calientes {
+        height: 200px;
+        background-image: url(/img/bocadillos-calientes640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .bocadillos-calientes {
+        height: 150px;
+        background-image: url(/img/bocadillos-calientes320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO BOCADILLOS CALIENTES */
+
+.contenedor-bocadillos-calientes {
+
+    display: none;
+}
+
+.contenido-bocadillos-calientes {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BOCADILLOS CALIENTES //////////// */
+
+/* BOCADILLOS FRIOS */
+
+.bocadillos-frios {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/bocadillos-frios1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .bocadillos-frios {
+        height: 250px;
+        background-image: url(/img/bocadillos-frios750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .bocadillos-frios {
+        height: 200px;
+        background-image: url(/img/bocadillos-frios640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .bocadillos-frios {
+        height: 150px;
+        background-image: url(/img/bocadillos-frios320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO BOCADILLOS FRIOS*/
+
+.contenedor-bocadillos-frios {
+
+    display: none;
+}
+
+.contenido-bocadillos-frios {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BOCADILLOS FRIOS //////////// */
+
+/* POSTRES */
+.postres {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/entrantes1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .postres {
+        height: 250px;
+        background-image: url(/img/postres750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .postres {
+        height: 200px;
+        background-image: url(/img/postres640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .postres {
+        height: 150px;
+        background-image: url(/img/postres320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO POSTRES */
+
+.contenedor-postres {
+
+    display: none;
+}
+
+.contenido-postres {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN POSTRES //////////// */
+
+/* BEBIDAS */
+
+.bebidas {
+    height: 350px;
+    border-bottom: solid 1px white;
+    width: 95%;
+    background-image: url(/img/bebidas1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 750px){
+
+    .bebidas {
+        height: 250px;
+        background-image: url(/img/bebidas750.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 640px){
+
+    .bebidas {
+        height: 200px;
+        background-image: url(/img/bebidas640.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+
+@media (max-width: 320px){
+
+    .bebidas {
+        height: 150px;
+        background-image: url(/img/bebidas320.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+}
+
+/* CONTENIDO BEBIDAS */
+
+.contenedor-bebidas {
+
+    display: none;
+}
+
+.contenido-bebidas {
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 95%;
+}
+
+/* /////////// FIN BEBIDAS //////////// */
+footer{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-pagina {
+
+    text-align: center;
+    
+}
+
+/* REDES SOCIALES */
+
+.redes-sociales {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo-facebook {
+    justify-content: center;
+    width: 50%;
+}
+
+.logo-instagram {
+    width: 50%;
+}
